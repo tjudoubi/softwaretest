@@ -3,6 +3,9 @@ package softwaretest;
 import org.junit.Test;
 
 public class test1 {
+	
+	static int MAXPRIMES = 1100;
+	
 	public int add(int a, int b) {
 		return a + b;
 	}
@@ -45,6 +48,7 @@ public class test1 {
 	}
 	// test: x=[0, 1, 0]
 	// Expected = 2
+	
 	
 	
 	
